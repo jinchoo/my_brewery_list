@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.info-overlay {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.info-overlay a {
+  display: block;
+  text-align: right;
+}
+
+.list {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1111;
+  background-color: #fff;
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.list li {
+  margin: 15px
+}
